@@ -16,6 +16,6 @@ public class EmployeePayrollService {
 
         EmployeePayroll employeePayroll = new EmployeePayroll(id, name, salary);
 
-        System.out.println("Employee id: " + employeePayroll.getId() + ", Employee name: " + employeePayroll.getName() + ", Employee Salary: " + employeePayroll.getSalary());
+        System.out.println("Employee id: " + employeePayroll.getId() +  ", Employee name: " + employeePayroll.getName() + ", Employee Salary: " + employeePayroll.getSalary());
     }
 }
